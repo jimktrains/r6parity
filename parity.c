@@ -1,4 +1,5 @@
 #include "galoisfield.h"
+#include <stdint.h>
 
 uint8_t xor(uint8_t d[])
 {

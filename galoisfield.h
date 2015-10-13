@@ -1,6 +1,8 @@
 #ifndef __GALOISFIELD_H__
 #define __GALOISFIELD_H__
 
+#include <stdint.h>
+
 /* https://www.kernel.org/pub/linux/kernel/people/hpa/raid6.pdf */
 
 /* x^8 + x^4 + x^3 + x^2 + 1 mod 255 */

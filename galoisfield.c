@@ -1,4 +1,7 @@
+/* malloc */
 #include <stdlib.h>
+/* memset */
+#include <string.h>
 #include <stdint.h>
 
 /* https://www.kernel.org/pub/linux/kernel/people/hpa/raid6.pdf */

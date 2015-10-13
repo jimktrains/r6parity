@@ -1,6 +1,8 @@
 #ifndef __PARITY_H__
 #define __PARITY_H__
 
+#include <stdint.h>
+
 uint8_t xor(uint8_t d[]);
 uint8_t rs(uint8_t d[]);
 void find_one_data_missing(uint8_t d[], uint8_t pos, uint8_t p);
