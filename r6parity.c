@@ -42,7 +42,7 @@ int main()
   test_pass = memcmp(data, orig_data, data_len_bytes);
   printf("Pass: %s\n\n", test_pass ? "NO" : "YES");
 
-  printf("Missing Dataum and RS Parity\n");
+  printf("Missing Dataum and XOR Parity\n");
   data[0] = 0;
   print_array(data, 5);
   find_one_data_parity_missing(data, 0, q);

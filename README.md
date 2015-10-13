@@ -17,7 +17,7 @@ Example output:
     48 45 4c 4c 4f 
     Pass: YES
     
-    Missing Dataum and RS Parity
+    Missing Dataum and XOR Parity
     00 45 4c 4c 4f 
     48 45 4c 4c 4f 
     Pass: YES
